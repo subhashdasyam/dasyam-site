@@ -6,6 +6,14 @@ body {
 	font-weight: 300;
 	color: #333;
 }
+#logo {
+    float: left;
+}
+#logo img {
+	width: 234px;
+	height: auto;
+    transition: width .15s ease-in-out;
+}
 #nav {
 	margin-top: 5px;
 	padding-right: 30px;
