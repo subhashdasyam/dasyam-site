@@ -77,6 +77,21 @@ h1 a, h2 a, h3 a, h4 a {
 	.title {
 		text-align: center;
 	}
+/* _______________________________________________________ */
+
+span.f {
+	font-size: 80px;
+	float: left;
+	margin: 20px 6px 5px 0;
+}
+span.f2 {
+	font-size: 51px;
+	float: left;
+	margin: 13px 6px 0 0;
+	font-style: italic;
+}
+
+/* _______________________________________________________ */
 @media screen and (max-width: 720px) {
 	#logo {
 		float: none;
