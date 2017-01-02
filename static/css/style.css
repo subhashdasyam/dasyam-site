@@ -24,7 +24,7 @@ body {
 }
 #nav a {
 	display: inline-block;
-	color: #ccc;
+	color: #ddd;
 
 	transition: all .10s ease-in;
 }
