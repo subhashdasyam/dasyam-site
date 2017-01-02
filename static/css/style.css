@@ -77,3 +77,15 @@ h1 a, h2 a, h3 a, h4 a {
 	.title {
 		text-align: center;
 	}
+@media screen and (max-width: 720px) {
+	#logo {
+		float: none;
+	}
+	#nav {
+		float: none;
+		margin-bottom: 30px;
+	}
+	#nav li {
+		margin: 0 25px 0 0;
+	}
+}
