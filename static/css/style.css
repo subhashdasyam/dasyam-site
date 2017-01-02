@@ -8,6 +8,8 @@ body {
 }
 #nav {
 	margin-top: 5px;
+	padding-right: 30px;
+	padding-top: 30px;
 	float: right;
 	font-size: .9em;
 	line-height: 1em;
