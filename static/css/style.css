@@ -6,3 +6,36 @@ body {
 	font-weight: 300;
 	color: #333;
 }
+#nav {
+	margin-top: 5px;
+	float: right;
+	font-size: .9em;
+	line-height: 1em;
+}
+	#nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	#nav li {
+		display: inline-block;
+		margin: 0 0 0 25px;
+	}
+	#nav a {
+		display: inline-block;
+		color: #ccc;
+
+		transition: all .10s ease-in;
+	}
+	#nav .current a {
+		color: #666;
+	}
+		#nav .sel a,
+		#nav a:hover {
+			color: #ff0000;
+			transition: all .10s ease-in;
+		}
+ul.no {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
